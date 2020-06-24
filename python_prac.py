@@ -26,4 +26,19 @@ print(helloworld)
 
 print([1,2,3]*3)
 
+#String formating
+data = "John Doe"
+per= 53.44
+
+print( "hello %s. Your current balance is %f" % (data,per))
+#end %s(string),%d(int),%f(float)
+
+#basic string operations
+astring = "Hello world!"
+print("single quotes are ' '")
+
+print(len(astring))
+
+
+
 # my ends here.
